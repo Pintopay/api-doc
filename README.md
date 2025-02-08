@@ -17,6 +17,14 @@ This README provides detailed information on how to integrate and interact with 
   ```
   [partnerId]:[timestamp]:[nonce]:[endpointName]
   ```
+- **SHA256 with RSA**: The signature must be generated using the SHA256 hashing algorithm combined with RSA encryption.
+- **How to generate keys** [read here](https://www.webdevsplanet.com/post/how-to-generate-rsa-private-and-public-keys?expand_article=1)
+- **Public Key (DER Format)**: The public key should be provided in DER format for compatibility with Corp-API.
+  ```
+  readFileContent(file).replaceAll("-----[\\sA-Z]+ KEY-----", "").replace("\n", "").trim() 
+  ```
+- **Base64 Signature**: The generated signature must be encoded in Base64 before being sent in the request.
+- **URL Encoding**: The partnerId should be URL-encoded before being used in API requests.
 
 ---
 
