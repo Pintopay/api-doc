@@ -145,6 +145,7 @@ Partners can define webhooks by making `POST` requests to the respective endpoin
 3. **Partner Info Retrieval**: Fetch details via `GET /direct/api/{partnerId}/{timestamp}/info`.
 4. **User Registration**: Register a user using `POST /direct/api/{partnerId}/{timestamp}/registerUser`.
 5. **Card Opening**: Open a card using `POST /direct/api/{partnerId}/{timestamp}/openCard`.
+**or** Open a card using KYC `POST /direct/api/{partnerId}/{timestamp}/openCardKyc`.
 6. **Card Activation and Recharge**:
     - Confirm card issuance via `GET /direct/api/{partnerId}/{timestamp}/checkIfIssued`.
     - Recharge the card using `POST /direct/api/{partnerId}/{timestamp}/recharge`.
