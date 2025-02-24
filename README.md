@@ -144,7 +144,7 @@ Partners can define webhooks by making `POST` requests to the respective endpoin
 2. **Partner Account Creation**: (Test only) Create a partner account using `POST /direct/test/newAccount`.
 3. **Partner Info Retrieval**: Fetch details via `GET /direct/api/{partnerId}/{timestamp}/info`.
 4. **User Registration**: Register a user using `POST /direct/api/{partnerId}/{timestamp}/registerUser`.
-- You have to register a new user for every new VISA card.
+- You have to register a new user for every new card type.
 5. **Card Opening**: Open a card using `POST /direct/api/{partnerId}/{timestamp}/openCard`.
 
     **or** Open a card using KYC for VISA cards `POST /direct/api/{partnerId}/{timestamp}/openCardKyc`.
