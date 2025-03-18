@@ -101,22 +101,34 @@ The platform supports the following webhook types:
 
 Partners can define webhooks by making `POST` requests to the respective endpoints:
 
-1. **Set Webhook for Recharges**
+1. **Set Webhook for Applications**
+
+    ```
+    POST /direct/api/{partnerId}/{timestamp}/webhookForApplications
+    ```
+
+2. **Set Webhook for Recharges**
 
    ```
    POST /direct/api/{partnerId}/{timestamp}/webhookForRecharges
    ```
 
-2. **Set Webhook for Transactions**
+3. **Set Webhook for Transactions**
 
    ```
    POST /direct/api/{partnerId}/{timestamp}/webhookForTransactions
    ```
 
-3. **Set Webhook for 3DS Codes**
+4. **Set Webhook for 3DS Codes**
 
    ```
    POST /direct/api/{partnerId}/{timestamp}/webhookFor3DS
+   ```
+   
+5. **Set Webhook for Card Status Update**
+
+   ```
+   POST /direct/api/{partnerId}/{timestamp}/webhookForCardStatusUpdate
    ```
 
 ### Required Parameters
@@ -148,6 +160,9 @@ Partners can define webhooks by making `POST` requests to the respective endpoin
 5. **Card Opening**: Open a card using `POST /direct/api/{partnerId}/{timestamp}/openCard`.
 
     **or** Open a card using KYC for VISA cards `POST /direct/api/{partnerId}/{timestamp}/openCardKyc`.
+
+**CHECK THIS** ->    2025_03_17_MB_VIRTUAL_VISA_DEBIT_USD_GREEN - KYC Form Requirements.md
+
 6. **Card Activation and Recharge**:
     - Confirm card issuance via `GET /direct/api/{partnerId}/{timestamp}/checkIfIssued`.
     - Recharge the card using `POST /direct/api/{partnerId}/{timestamp}/recharge`.
