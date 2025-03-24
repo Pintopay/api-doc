@@ -195,6 +195,9 @@ Partners can define webhooks by making `POST` requests to the respective endpoin
 
 - Ensure consistent signature calculations.
 - Retry failed requests for transient errors.
+- Some cards in the test environment have a top-up limit:
+  - **MB_VIRTUAL_MASTERCARD_DEBIT_USD_TEST** – 0 top-ups allowed
+  - **MB_VIRTUAL_MASTERCARD_DEBIT_USD** – 1 top-up allowed
 
 **Service Interaction**: `TestApiFlowService.testCardRechargeFlow()` manages this flow.\
 **External API Calls**: `recharge()`, `rechargeResult()`.
