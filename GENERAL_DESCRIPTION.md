@@ -161,7 +161,7 @@ Partners can define webhooks by making `POST` requests to the respective endpoin
 
     **or** Open a card using KYC for VISA cards `POST /direct/api/{partnerId}/{timestamp}/openCardKyc`.
 
-**CHECK THIS** ->    2025_03_17_MB_VIRTUAL_VISA_DEBIT_USD_GREEN - KYC Form Requirements.md
+**CHECK THIS** ->    MB_VIRTUAL_VISA_DEBIT_USD_GREEN - KYC Form Requirements.md
 
 6. **Card Activation and Recharge**:
     - Confirm card issuance via `GET /direct/api/{partnerId}/{timestamp}/checkIfIssued`.
