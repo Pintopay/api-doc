@@ -32,6 +32,7 @@ If you have any questions, please contact us. We will be happy to assist you.
 ## Required
 
 - The `first_name` and `last_name` fields are **mandatory** — they must not be `null` or blank (`isBlank()`).
+- The `middle_name` should not be `null`, but can be blank.
 
 ---
 
