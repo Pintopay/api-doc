@@ -2,9 +2,9 @@
 
 ## Overview
 
-- `transactionStatus` (item 1.2) — a numeric status from the `status` field in the `CardRecord` entity, reflects the technical state of the transaction.
-- `status` (item 1.3) — a string field `transactionStatus` in `CardRecord`, describes the textual state of the transaction (e.g., `SUCCESS`, `FAILED`).
-- `type` (item 1.1) — the type of the operation, such as `PENDING`, `DECLINED`, `ACCEPTED`, and may influence the value of `status`.
+- `transactionStatus`— a numeric status from the `status` field in the `CardRecord` entity, reflects the technical state of the transaction.
+- `status` — a string field `transactionStatus` in `CardRecord`, describes the textual state of the transaction (e.g., `SUCCESS`, `FAILED`).
+- `type` — the type of the operation, such as `PENDING`, `DECLINED`, `ACCEPTED`, and may influence the value of `status`.
 
 ---
 
@@ -59,9 +59,9 @@ Defines the type of operation. Possible values:
 
 ## В общих чертах
 
-- `transactionStatus` (п. 1.2) — числовой статус из поля `status` в сущности `CardRecord`, отражает техническое состояние транзакции.
-- `status` (п. 1.3) — строковое поле `transactionStatus` из `CardRecord`, описывает текстовое состояние транзакции (например, `SUCCESS`, `FAILED`).
-- `type` (п. 1.1) — тип операции, например, `PENDING`, `DECLINED`, `ACCEPTED`, и может влиять на определение `status`.
+- `transactionStatus` — числовой статус из поля `status` в сущности `CardRecord`, отражает техническое состояние транзакции.
+- `status` — строковое поле `transactionStatus` из `CardRecord`, описывает текстовое состояние транзакции (например, `SUCCESS`, `FAILED`).
+- `type` — тип операции, например, `PENDING`, `DECLINED`, `ACCEPTED`, и может влиять на определение `status`.
 
 ---
 
