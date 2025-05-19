@@ -11,10 +11,10 @@
 ```json
 {
     "cardId": "[card_id]",
-    "timestampUTC": [timestamp],
-    "isActive": [boolean],
-    "isClosed": [boolean],
-    "isFrozen": [boolean]
+    "timestampUTC": "[timestamp]",
+    "isActive": "[boolean]",
+    "isClosed": "[boolean]",
+    "isFrozen": "[boolean]"
 }
 ```
 
@@ -23,7 +23,7 @@
 {
     "status": "[status]",
     "message": "[message]",
-    "updatedAt": [timestamp]
+    "updatedAt": "[timestamp]"
 }
 ```
 
@@ -37,7 +37,7 @@
     "recordId": "[record_id]",
     "recordKey": "RECHARGE::::[request_id]:1",
     "requestId": "[request_id]",
-    "executedAt": [timestamp],
+    "executedAt": "[timestamp]",
     "resultAmount": "[amount]",
     "operationType": "RECHARGE",
     "operationAmount": "[amount]"
@@ -49,7 +49,7 @@
 {
     "providerType": "[provider]",
     "providerCardId": "[card_id]",
-    "createdAt": [timestamp],
+    "createdAt": "[timestamp]",
     "code": "[3ds_code]"
 }
 ```
@@ -63,10 +63,10 @@
     "recordId": "[record_id]",
     "recordKey": "[record_key]",
     "requestId": "[request_id]",
-    "executedAt": [timestamp],
+    "executedAt": "[timestamp]",
     "resultAmount": "[amount]",
     "operationType": "[operation_type]",
     "operationAmount": "[amount]",
-    "status": [status_code]
+    "status": "[status_code]"
 }
 ```
