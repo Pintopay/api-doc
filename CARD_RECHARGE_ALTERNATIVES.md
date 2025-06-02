@@ -11,6 +11,10 @@ Pls take a look at GENERAL_DESCRIPTION.md:182 "/recharge-card"
 ---
 
 **TRON:**  
+
+ATTENTION : WE SURCHARGE 2.5 USDT FOR EVERY TOP-UP VIA TRON GATEWAY 
+(It is fixed sum, we take in surplus tu all other fees. We are working on halving it)
+
 Each card is now assigned a unique TRON wallet address.
 
 If a user sends USDT to this address:
